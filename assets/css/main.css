@@ -35,9 +35,37 @@ p{
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     opacity: 1;
+    border-bottom: 1px solid #279655;
 }
 
 .imgLogo{
     display: block;
     margin: 1.5rem auto 1rem auto;
+}
+
+.redesSociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.redesSociales a{
+    display: inline-block;
+    margin: 0 0.7rem;
+    text-decoration: none;
+    color: #279655;
+    transition: all 0.3s ease-in-out;
+    font-size: 2.3rem;
+}
+
+.redesSociales a:hover{
+    display: inline-block;
+    margin: 0 0.7rem;
+    text-decoration: none;
+    color: #52b87c;
+    transition: all 0.3s ease-in-out;
+    font-size: 2.3rem;
 }
