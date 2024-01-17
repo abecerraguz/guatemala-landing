@@ -1,0 +1,43 @@
+body{
+    font-family: Georama, Georama-fallback, "Trebuchet MS", sans-serif;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100vw;
+    height: 100vh;
+}
+
+p{
+    font-size: 1.25rem;
+    line-height: 1.8rem !important;
+    color: #373742 !important;
+    word-break: break-word;
+    text-align: center;
+}
+
+.contentInfo{
+    display: flex;
+    width: 86%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,0.852000175070028) 0%, rgba(239,243,247,1) 100%);
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 auto;
+    border: 2px solid;
+    border-image: linear-gradient(to right,#f1f5f7,#279655) 1 0 0 0;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.imgLogo{
+    display: block;
+    margin: 1.5rem auto 1rem auto;
+}
